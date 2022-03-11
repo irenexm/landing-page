@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html{ box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.lotus {
+    width: 400px;
+}
+
+main {
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pic {
+    height: 100px;
+    border-radius: 15px;
+}
+
+.quote {
+    text-align: center;
+}
+
+.bottom {
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
